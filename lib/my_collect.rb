@@ -4,6 +4,5 @@ my_collect(array)
     yield(array[i])
     i += 1 
   end 
-    
-  
+  array.map |i|
 end 
